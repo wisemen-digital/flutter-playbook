@@ -7,4 +7,3 @@ The Wisemen Flutter Playbook
 ```bash
 pnpm run dev
 ```
-

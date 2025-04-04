@@ -6,7 +6,7 @@ API is the most common source of our data, this could also be a Websocket, Fireb
 
 ### DTO
 
-DTOs only use primitive types (`String, int, double, bool, List<T>`) and other DTOs for nested objects. They represent the way we receive data from the data source. Usually annotated with JsonSerializable() to be able to map from and back to json (`Map<String, dynamic>`) objects.
+DTOs only use primitive types (`String, int, double, bool, List<T>`) and other DTOs for nested objects. They represent the way we receive data from the data source. Usually annotated with [JsonSerializable()](https://pub.dev/packages/json_serializable) to be able to map from and back to json (`Map<String, dynamic>`) objects.
 
 ```
 @JsonSerializable()
@@ -32,7 +32,7 @@ class DogDTO {
 
 ### Services
 
-In a service we query the data source and return the result as a DTO. We expose our services to repositories through Riverpod auto dispose providers.
+In a service we query the data source and return the result as a DTO. We expose our services to repositories through [Riverpod](https://pub.dev/packages/riverpod) auto dispose providers.
 
 ```
 class DogService {
@@ -55,4 +55,4 @@ final dogServiceProvider = Provider.autoDispose<DogService>((ref) => DogService(
 
 ### Clients
 
-The clients give us a way to interact with our source (eg. WiseClient, websocket client). Our services can consume them through Riverpod providers.
+The clients give us a way to interact with our source (eg. WiseClient, websocket client). Our services can consume them through [Riverpod](https://pub.dev/packages/riverpod) providers.

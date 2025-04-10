@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "eslint-config-prettier": "^8.8.0",
+    "pnpm": "^10.8.0",
     "vitepress-plugin-simple-search": "^1.3.4"
   },
   "devDependencies": {

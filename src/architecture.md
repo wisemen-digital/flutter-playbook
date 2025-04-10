@@ -5,3 +5,8 @@ The way we structure our code. We want to strike a balance between having scalab
 ### Table of contents
 
 - [Layers](architecture/layers.md)
+- [Source](architecture/source.md)
+- [Database](architecture/database.md)
+- [Repository](architecture/repository.md)
+- [Feature](architecture/feature.md)
+- [Managers](architecture/managers.md)

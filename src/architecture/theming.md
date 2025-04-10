@@ -1,4 +1,4 @@
-#### [Architecture](/theming.md)
+#### [Architecture](/architecture.md)
 
 # Theming
 

@@ -1,4 +1,4 @@
-#### [Managers](/managers.md)
+#### [Managers](/architecture.md)
 
 # Managers
 

@@ -9,4 +9,5 @@ The way we structure our code. We want to strike a balance between having scalab
 - [Database](architecture/database.md)
 - [Repository](architecture/repository.md)
 - [Feature](architecture/feature.md)
+- [Theming](architecture/theming.md)
 - [Managers](architecture/managers.md)

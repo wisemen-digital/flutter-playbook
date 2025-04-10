@@ -28,6 +28,7 @@ export default defineConfig({
         { text: 'Database', link: '/architecture/database' },
         { text: 'Repository', link: '/architecture/repository' },
         { text: 'Feature', link: '/architecture/feature' },
+        { text: 'Theming', link: '/architecture/theming' },
         { text: 'Managers', link: '/architecture/managers' },
         ]
       },

@@ -14,6 +14,10 @@ hero:
       link: https://github.com/wisemen-digital/flutter-playbook
 
 features:
+  - icon: 🤝
+    title: Collaboration
+    details: How we efficiently collaborate using GitHub.
+    link: /collaboration
   - icon: 📐
     title: Architecture
     details: Scalable, maintainable and legible code.

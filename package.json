@@ -11,21 +11,10 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx,.md,.vue . --fix"
   },
   "dependencies": {
-    "eslint-config-prettier": "^8.8.0",
-    "pnpm": "^10.8.0",
-    "vitepress-plugin-simple-search": "^1.3.4"
+    "pnpm": "^10.10.0"
   },
   "devDependencies": {
-    "@vue/eslint-config-prettier": "^7.0.0",
-    "@vue/eslint-config-typescript": "^11.0.0",
-    "eslint": "^8.37.0",
-    "eslint-plugin-md": "^1.0.19",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-vue": "^9.3.0",
-    "flexsearch": "^0.7.31",
-    "markdown-it": "^13.0.1",
-    "prettier": "2.8.7",
-    "vitepress": "^1.6.3",
-    "vitepress-plugin-search": "^1.0.4-alpha.19"
+    "markdown-it": "^14.1.0",
+    "vitepress": "^1.6.3"
   }
 }

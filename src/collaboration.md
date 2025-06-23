@@ -17,3 +17,7 @@ To make the reviewer's life a bit easier we'd like to keep our PRs as small as p
 ### (Almost) no comments
 
 We don't accept commented code blocks at all. Writing doc comments for functions or variables is fine (even encouraged for widgets in shared). In general we'd like our code to be easy to understand without comments.
+
+### Imports/barrels
+
+Barrel files are a nice way to keep your imports clear and concise. These are easy to generate using this [extension](https://marketplace.visualstudio.com/items?itemName=miquelddg.dart-barrel-file-generator). Whenever you're importing something within the current feature, you should import the feature's barrel file (feature_name.dart) as a relative import. For other imports we use absolute paths.

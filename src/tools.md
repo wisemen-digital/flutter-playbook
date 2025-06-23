@@ -22,3 +22,4 @@ These are the tools we use to make our apps. Download them, use them.
 - [Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 - [SVG Previews](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview)
+- [Wise Snippets](https://github.com/wisemen-digital/flutter-wise-snippets)

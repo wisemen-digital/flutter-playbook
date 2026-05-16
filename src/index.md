@@ -42,4 +42,8 @@ features:
     title: Packages
     details: Published Wisemen packages that can help you create great applications.
     link: /packages
+  - icon: 🧩
+    title: Migrations
+    details: Migration instructions related to wise packages.
+    link: /migrations
 ---

@@ -40,6 +40,7 @@ export default defineConfig({
         ]
       },
       { text: 'Packages', link: '/packages'},
+      { text: 'Migrations', link: '/migrations'}
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/wisemen-digital/flutter-playbook' }

@@ -11,10 +11,10 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx,.md,.vue . --fix"
   },
   "dependencies": {
-    "pnpm": "^10.33.4"
+    "pnpm": "^10.34.4"
   },
   "devDependencies": {
-    "markdown-it": "^14.1.1",
+    "markdown-it": "^14.3.0",
     "vitepress": "^1.6.4"
   },
   "pnpm": {
